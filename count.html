@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Countdown Timer</title> <!-- Title of the webpage -->
+    <link rel="stylesheet" href="count.css"> <!-- Link to the CSS file for styling -->
+</head>
+<body>
+    <div class="container"> <!-- Main container for content -->
+        <h1>Countdown Timer</h1> <!-- Heading for the page -->
+
+        <div id="timerInputs"> 
+            <div class="timer-input"> <!-- A single timer input section -->
+                <input type="datetime-local" placeholder="Select Date and Time"> <!-- Input field for selecting date and time -->
+                <button class="startButton">Start Timer</button> <!-- Button to start the timer -->
+            </div>
+        </div>
+
+        <button id="addTimerButton">Add Another Timer</button> <!-- Button to add more timer input sections -->
+
+        <div id="timerDisplays"></div> <!-- Container for displaying active timers -->
+    </div>
+
+    <script src="count.js"></script> <!-- Link to the JavaScript file for functionality -->
+</body>
+</html>
