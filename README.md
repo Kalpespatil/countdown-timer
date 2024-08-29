@@ -16,7 +16,7 @@ Files :
 
 Setup :
 1.Clone the Repository -
-https://github.com/Kalpespatil/countdown-timer.git
+https://github.com/kalpeshpatil809/countdown-timer.git
 
 2.Navigate to the Project Directory -
 cd countdown-timer 
